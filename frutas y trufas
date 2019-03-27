@@ -1,0 +1,8 @@
+N = int(input("Ingrese un numero entero \n"))
+M = int(input("Ingrese un numero entero \n"))
+if N>M:
+    print("Blanca")
+elif M>N:
+    print("Negra")
+else:
+    print("Igual")
