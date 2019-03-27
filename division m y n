@@ -1,0 +1,7 @@
+M=int(input("Ingrese un numero entero \n"))
+N=int(input("Ingrese un numero entero \n"))
+if N == 0:
+    print("No se puede dividir por cero")
+    print(M)
+else:
+    print(int(M/N))
