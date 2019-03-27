@@ -1,0 +1,4 @@
+N=float(input("Ingrese un numero \n"))
+M=float(input("Ingrese un numero \n"))
+x = ((N**2)*M)/3
+print(round(x,1))
