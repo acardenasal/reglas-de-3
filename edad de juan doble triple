@@ -1,0 +1,16 @@
+N=int(input("Ingrese un numero entero \n")) 
+M=int(input("Ingrese un numero entero \n")) 
+if N== (2*M):
+    print("Es el doble")
+elif N== (3*M):
+    print("Es el triple")
+elif N==M:
+    print("Son iguales")
+else:
+    print("Ninguna de las anteriores")
+    if N>M:
+        print(N-M)
+    elif M>N:
+        print(M-N)
+    else:
+        print(M-N)
