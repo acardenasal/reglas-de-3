@@ -1,0 +1,4 @@
+N=int(input("Ingrese un numero entero \n"))
+M=int(input("Ingrese un numero entero \n"))
+X=(12*0.5*M*N)/(2*90*0.8*100)
+print(round(X,2))
