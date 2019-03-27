@@ -1,0 +1,10 @@
+N=int(input("Ingrese un numero entero \n")) 
+M=str(input("Ingrese un texto \n"))
+if M=="lunes" or M=="miercoles" or M=="viernes":
+    p= N-(N*0.20)
+    print(p)
+elif M=="jueves":
+    v=N+(N*0.10)
+    print(v)
+else:
+    print(N)
